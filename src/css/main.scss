@@ -1,1 +1,103 @@
 //All styles can be added here.
+header {
+  background-image: linear-gradient(
+      to right,
+      rgba(167, 55, 55, 0.95),
+      rgba(122, 40, 40, 0.4)
+    ),
+    url("../img/cover.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 99vh;
+}
+
+ion-icon {
+  font-size: 24px;
+}
+
+.play ion-icon {
+  font-size: 70px;
+}
+
+.icon ion-icon {
+  font-size: 60px;
+}
+
+.destroyer {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(28, 216, 210, 0.2),
+      rgba(19, 78, 94, 0.98)
+    ),
+    url(../img/featured/destroyer.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  // height: 100%;
+}
+
+.fucking {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(28, 216, 210, 0.2),
+      rgba(8, 80, 120, 0.98)
+    ),
+    url(../img/featured/fucking.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 510px;
+}
+
+.jesus {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(28, 216, 210, 0.2),
+      rgba(116, 66, 16, 0.98)
+    ),
+    url(../img/featured/jesus.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 510px;
+}
+
+.dark {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(28, 216, 210, 0.2),
+      rgba(183, 121, 31, 0.98)
+    ),
+    url(../img/featured/dark-tower.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 510px;
+}
+
+.acrimony {
+  background-image: linear-gradient(
+      to left bottom,
+      rgba(28, 216, 210, 0.1),
+      rgba(123, 52, 30, 0.98)
+    ),
+    url(../img/movies/acrimony.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.juice {
+  background-image: linear-gradient(
+      to left bottom,
+      rgba(28, 216, 210, 0.2),
+      rgba(155, 44, 44, 0.98)
+    ),
+    url(../img/movies/juice.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
